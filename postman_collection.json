@@ -1,0 +1,66 @@
+{
+  "info": {
+    "name": "Student API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Create student",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "https://7pjdrb32we.execute-api.us-east-2.amazonaws.com/dev/students",
+          "protocol": "https",
+          "host": [
+            "7pjdrb32we",
+            "execute-api",
+            "us-east-2",
+            "amazonaws",
+            "com"
+          ],
+          "path": [
+            "dev",
+            "students"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{ \"student_id\": \"123\", \"name\": \"John Doe\", \"course\": \"Enterprise Software\" }"
+        }
+      }
+    },
+    {
+      "name": "Get student",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "https://7pjdrb32we.execute-api.us-east-2.amazonaws.com/dev/students?student_id=123",
+          "protocol": "https",
+          "host": [
+            "7pjdrb32we",
+            "execute-api",
+            "us-east-2",
+            "amazonaws",
+            "com"
+          ],
+          "path": [
+            "dev",
+            "students"
+          ],
+          "query": [
+            {
+              "key": "student_id",
+              "value": "123"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
