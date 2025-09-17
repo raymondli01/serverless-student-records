@@ -35,10 +35,10 @@ curl -X GET "https://7pjdrb32we.execute-api.us-east-2.amazonaws.com/dev/students
 ## Screenshots
 > These satisfy the submission requirement for **screenshots of successful API requests** and **DynamoDB table with sample records**. Place/keep the images in `screenshots/`.
 
-- Successful API calls (POST/GET):  
+- DynamoDB table with inserted items:  
   ![API call success](screenshots/Screenshot%202025-09-17%20020838.png)
 
-- DynamoDB table with inserted items:  
+- Successful API calls (POST/GET):  
   ![DynamoDB items](screenshots/Screenshot%202025-09-17%20020907.png)
 
 ## Notes
