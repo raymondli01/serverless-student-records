@@ -11,7 +11,7 @@ This repo contains the code and artifacts for the assignment **"Building a Serve
 - **REFLECTION.md** — Brief reflection on challenges and learnings.
 
 ## API Gateway endpoint
-> Replace with your own when grading; currently set to your working endpoint:
+> Replace with your own endpoint URL; below is mine:
 ```
 https://7pjdrb32we.execute-api.us-east-2.amazonaws.com/dev
 ```
